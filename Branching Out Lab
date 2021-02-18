@@ -1,0 +1,26 @@
+Last login: Thu Feb 18 12:24:27 on ttys001
+jerealthomas@Jereals-MBP ~ % cd git-workshop
+jerealthomas@Jereals-MBP git-workshop % git branch
+* master
+jerealthomas@Jereals-MBP git-workshop % git branch add-exercise
+jerealthomas@Jereals-MBP git-workshop % git branch
+  add-exercise
+* master
+jerealthomas@Jereals-MBP git-workshop % git checkout add-exercise
+Switched to branch 'add-exercise'
+jerealthomas@Jereals-MBP git-workshop % git branch
+* add-exercise
+  master
+jerealthomas@Jereals-MBP git-workshop % git branch second
+jerealthomas@Jereals-MBP git-workshop % git checkout second
+Switched to branch 'second'
+jerealthomas@Jereals-MBP git-workshop % git branch
+  add-exercise
+  master
+* second
+jerealthomas@Jereals-MBP git-workshop % mkdir git-tag-exercise
+jerealthomas@Jereals-MBP git-workshop % cd git-tag-exercise
+jerealthomas@Jereals-MBP git-tag-exercise % touch README.md
+jerealthomas@Jereals-MBP git-tag-exercise % -a: git tag -a v1.0.1
+zsh: command not found: -a:
+jerealthomas@Jereals-MBP git-tag-exercise % 
